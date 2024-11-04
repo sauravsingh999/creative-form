@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(212, 201, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logincard{
+    width: 50%;
+    height: 75%;
+    background-color: white;
+    /* margin: auto; */
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.leftside{
+    width: 40%;
+    height: 100%;
+    background-color:rgb(119,70,255);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#para{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.para{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.slider{
+    width: 90%;
+    height: 28%;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.slider-image{
+    width: 100%;
+    height: 50%;
+    /* background-color: black; */
+    gap: 10px;
+    display: flex;
+    /* flex-direction: column; */
+}
+.slider-image>div{
+    /* justify-content: baseline; */
+    text-transform: capitalize;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/01/10/11/https://cdn.pixabay.com/photo/2014/04/03/11/56/avatar-312603_960_720.png-1299805_1280.png);
+    background-size: cover;
+    /* display: flex;
+    flex-direction: column; */
+}
+.rightside{
+    width: 60%;
+    height: 100%;
+    /* background-color:gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.getstart{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: red; */
+}
+.getstart h4{
+    font-size: 20px;
+}
+.getstart p{
+    font-size: 13px;
+    font-weight: 600;
+}
+#login{
+    color: blue;
+}
+.box{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+.box input{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.box label{
+    color: gray;
+    font-size: 13px;
+}
+.test{
+    flex-direction: row;
+}
+.genlabel{
+    color: gray;
+    font-size: 13px;
+}
+.gender{
+    border: 1px solid gray;
+    padding: 15px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.one{
+    margin-right: 20px;
+}
+.btn{
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: royalblue;
+    color: white;
+}
+.firstname{
+    width: 50%;
+}
